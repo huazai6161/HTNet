@@ -161,7 +161,7 @@ class Fusionmodel(nn.Module):
 def main(config):
     learning_rate = 0.00005
     batch_size = 256
-    epochs = 800
+    epochs = 20
     all_accuracy_dict = {}
     is_cuda = torch.cuda.is_available()
     if is_cuda:
